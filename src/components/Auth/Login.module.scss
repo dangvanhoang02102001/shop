@@ -1,0 +1,17 @@
+.button {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgb(187, 68, 68);
+    color: #fff;
+    padding: 0 12px;
+    border-radius: 4px;
+
+    &:hover {
+        cursor: pointer;
+        filter: brightness(120%);
+    }
+}
